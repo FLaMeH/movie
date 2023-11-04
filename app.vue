@@ -7,9 +7,9 @@ useHead({
   },
   charset: 'utf-8',
   title: 'TMDB站点影视资源',
-  titleTemplate: title => title !== 'Nuxt Movies' ? `${title} · Nuxt Movies` : title,
+  titleTemplate: title => title !== 'TMDB站点影视资源' ? `${title} · TMDB站点影视资源` : title,
   meta: [
-    { name: 'description', content: 'A TMDB client built with Nuxt Image to show the potential of it ✨' },
+    { name: 'description', content: 'TMDB站点影视资源' },
     { property: 'og:image', content: 'https://movies.nuxt.space/social-card.png' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:site', content: '@nuxt_js' },
